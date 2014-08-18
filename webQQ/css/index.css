@@ -1,0 +1,72 @@
+body{width: 100%;height: 100%;position: absolute;overflow: hidden;font-family: '微软雅黑','HelveticaNeue','Helvetica',Arial,sans-serif;font-size: 16px;}
+#bgAllimg{display: block;width: 100%;height: 100%;background-image: url("images/10.jpg");background-size: 100% 100%;position: absolute;}
+.wrap{width: 1000px;height: 100%;margin: 0 auto;display: block;}
+
+#wrapLeft{width: 280px;height:100%;float: left;margin: 0 auto;}
+#head{width: 280px;height: 75px;display: block;float: left;margin-top: 5px;}
+.headpic{float: left;border: 3px solid #fff;width: 40px;height: 40px;display: block; }
+#touxiang{padding-left: 20px; width: 150px;height: 44px;display: block;float: left;}
+#touxiang li{float: left;}
+
+.name{padding-left: 10px; color: #000;font-size: 16px;text-decoration: none;text-shadow: 0 0 3px snow,0 0 3px snow,0 0 3px snow,0 0 3px snow;}
+#smallpic{width: 207px;height: 15px;display: block;float: left;padding-left: 20px;margin-top: 8px;}
+#smallpic a{width: 15px;height: 15px;display: block;float: left;margin-right: 8px; background-repeat: no-repeat;background-image: url("images/icons_list.png");}
+#smallpic1{background-position: 0 0;}
+#smallpic2{background-position: -20px 0;}
+#smallpic3{background-position: -40px 0;}
+#smallpic4{background-position: -60px 0;}
+#smallpic5{background-position: -81px 0;}
+#smallpic6{background-position: -103px 0;}
+#smallpic7{background-position: -124px 0;}
+#smallpic8{background-position: -144px 0;}
+#smallpic9{background-position: -166px 0;}
+
+#mainleft{width: 280px;height: 497px;display: block;float: left;border-radius: 7px;}/*border-radius圆角*/
+#title{text-align: center;width: 280px;height: 45px;display: block;background: linear-gradient(#555,#222);border-radius: 6px 6px 0 0;margin-right: 8px;}
+#Tleft{width: 60px;height: 45px;display: block;float: left;}
+#Tcenter{width: 160px;height: 45px;display: block;float: left;}
+#Tcenter a{text-decoration: none;line-height: 45px;color: #fff;font-size: 19px;}
+#Tright{width: 60px;height: 45px;display: block;float: left;}
+#soso{width: 44px;height: 31px;border: 1px solid #000;display: block;margin-top: 6px;float: left;border-radius: 7px;}
+.btnsoso{background-image: url("images/title_search_icon.png");background-repeat: no-repeat;background-size: 14px 14px;width: 14px;height: 14px;display: block;margin: 0 auto;margin-top: 8px;}
+#mainleftCurrent{width: 280px;height: 409px;display: block;background-color: #fff;}
+#mainTleft{width: 280px;height: 39px;display: block;border-bottom-color: #0aa7ff;border-bottom: 1px solid #ccc;}
+#mainTleft li{float: left;width: 280px;height: 39px;display: block;text-align: center;}
+#mainTleft li a{width: 90px;height: 39px;display: block;float: left;line-height: 39px;color: #000;font-size: 16px;font-family: 宋体;text-decoration: none;}
+#mainTleft span{float: left;line-height: 39px;font-weight: 100; color: #ccc;}
+#fridendteam{width: 280px;height: 370px;overflow: hidden;background-color: gray;}
+#fridendteam li{width: 280; height: 39px;border-top: 1px solid #ccc;background-color: #fff;}
+.team1{background: url("images/open_arrow.png") no-repeat 12px;background-size: 14px 14px;float: left;line-height: 39px;}
+#fridendteam span{float: right;line-height: 39px;color: gray;font-size: 12px;padding-right: 30px;}
+#fridendteam a{padding-left: 35px;text-decoration: none;font-size: 100%;font: inherit;vertical-align: baseline;color: #000;}
+.unselected{display: none;}
+#hideplace1{overflow: hidden;position: absolute;top: 206px;left: 184px;height: 330px;}
+.selected{display: block;}
+#fridend1{width: 280px;height: 62px;display: block;background-color: #fff;border-top: 1px solid #ccc;}
+.fridendpic{float: left;width: 40px;height: 40px;display: block;padding: 11px 0 0 10px;float: left;}
+.shuoshuo{width: 222px;height: 56px;display: block;float: left;}
+.fridendname{padding: 8px 0 0 8px;}
+.zhuangtai{padding-left: 18px;font-size: 12px;padding-top: 5px;}
+.zhuangtai a{text-decoration: none;color: gray;}
+
+#foot{width: 280px;height: 50px;display: block;background: linear-gradient(#555,#222);border-radius: 0 0 6px 6px;}
+#foot li{width: 69px;height: 50px;display: block;text-align: center;border-right: 1px solid #222;color: #ccc;font-size: 14px;text-shadow:0 -1px 0 #000;float: left;cursor: pointer;}
+.huihua{background-image: url("images/huihua.png");width: 34px;height: 34px;background-size: 100% 100%;display: inline-block;}
+.lianxiren{background-image: url("images/lianxiren.png");width: 34px;height: 34px;background-size: 100% 100%;display: inline-block;}
+.faxian{background-image: url("images/faxian.png");width: 34px;height: 34px;background-size: 100% 100%;display: inline-block;}
+.shezhi{background-image: url("images/shezhi.png");width: 34px;height: 34px;background-size: 100% 100%;display: inline-block;}
+#foot span{display: block;position: relative;bottom: 2px;width: 100%;font-size: 12px;}
+
+#btnRL{width: 55px;height: 21px;display: block;position: absolute;bottom: 5px;}
+#left{width: 19px;height: 19px;margin: 0 3px;background-image: url("images/arrow.png");background-repeat: no-repeat;display: inline-block;text-decoration: none;background-position: -2px -2px;}
+#right{width: 19px;height: 19px;margin: 0 3px;background-image: url("images/arrow.png");background-repeat: no-repeat;display: inline-block;text-decoration: none;background-position: -25px -2px;}
+
+#suggestion{position: absolute;font-size: 12px;width: 80px;height: 16px;bottom: 10px;left: 290px;background: rgba(0,0,0,0.5);padding: 2px 0;border-radius: 10px;display: block;color: #000;text-align: center;}
+#suggestion a{text-decoration: none;color: #fff;}
+
+
+
+
+#wrapRight{position: relative;width: 700px;height: 100%;float: left;margin-left: 20px;}
+
+
